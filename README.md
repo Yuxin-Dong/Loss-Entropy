@@ -1,4 +1,4 @@
-# Rethinking Information-theoretic Generalization: Loss Entropy Induced PAC Bounds
+# Rethinking Information-theoretic Generalization: Loss Entropy Induced PAC Bounds (ICLR 2024)
 
 Our supplementary material enables the replication of two experiments:
 * Correlation Analysis
@@ -8,7 +8,7 @@ Our supplementary material enables the replication of two experiments:
 
 The code is developed based on [this repository](https://github.com/xu-ji/information-bottleneck).
 
-The analysis of $H(L^w)$ and $H(L^W|Y)$ is implemented in `information-bottleneck/toy/scripts/main_swag.py`, with the kernel density estimator implemented in `information-bottleneck/toy/util/general.py`.
+The analysis of $H(L^w)$ and $H(L^w|Y)$ is implemented in `information-bottleneck/toy/scripts/main_swag.py`, with the kernel density estimator implemented in `information-bottleneck/toy/util/general.py`.
 
 ## Bound Comparison
 
@@ -20,11 +20,11 @@ The estimation of our bounds is implemented in `f-CMI/scripts/fcmi_parse_results
 
 ```
 @inproceedings{
-	dong2024rethinking,
-	title={Rethinking Information-theoretic Generalization: Loss Entropy Induced {PAC} Bounds},
-	author={Yuxin Dong and Tieliang Gong and Hong Chen and Shujian Yu and Chen Li},
-	booktitle={The Twelfth International Conference on Learning Representations},
-	year={2024},
-	url={https://openreview.net/forum?id=GWSIo2MzuH}
+    dong2024rethinking,
+    title={Rethinking Information-theoretic Generalization: Loss Entropy Induced {PAC} Bounds},
+    author={Yuxin Dong and Tieliang Gong and Hong Chen and Shujian Yu and Chen Li},
+    booktitle={The Twelfth International Conference on Learning Representations},
+    year={2024},
+    url={https://openreview.net/forum?id=GWSIo2MzuH}
 }
 ```
